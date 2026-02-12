@@ -19,9 +19,9 @@ function TrafficLight() {
 
             <div style={{ width: '100px' }} className='bg-dark py-3 d-flex flex-column align-items-center rounded-5'>
 
-                <div className={`bg-danger light ${color == 'red' ? 'on' : ''}`} onClick={() => setColor("red")}></div>
-                <div className={`bg-warning light ${color == 'yellow' ? 'on' : ''}`} onClick={() => setColor("yellow")}></div>
-                <div className={`bg-success light ${color == 'green' ? 'on' : ''}`} onClick={() => setColor("green")}></div>
+                <div className={`bg-danger light ${color === 'red' ? 'on' : ''}`} onClick={() => setColor("red")}></div>
+                <div className={`bg-warning light ${color === 'yellow' ? 'on' : ''}`} onClick={() => setColor("yellow")}></div>
+                <div className={`bg-success light ${color === 'green' ? 'on' : ''}`} onClick={() => setColor("green")}></div>
 
 
             </div>
